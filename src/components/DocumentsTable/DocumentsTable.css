@@ -1,0 +1,34 @@
+/* DocumentsTable.css */
+
+.container {
+  /* padding: 10px; */
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-header {
+  border-bottom: 1px solid gray;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.table-row {
+  text-align: left;
+  color: gray;
+  border-bottom: 0.1px solid black;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}

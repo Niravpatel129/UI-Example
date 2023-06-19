@@ -1,0 +1,12 @@
+.dropdown-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.dropdown-select:focus {
+  border-bottom: 2px solid #83cdea;
+}
