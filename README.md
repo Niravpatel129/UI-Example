@@ -1,12 +1,5 @@
-Development Environment Guide
-1) create src folder
-   copy App.js, index.html and index.js to src folder
-2) create static folder
-   1) under static folder, create css and images folders.
-   2) copy App.css and index.css to static/css folder
-   3) copy favicon.ico and logo.svg to static/images folder
-   4) copy mockData.js to static folder
-3) run below command to build packages
-   npm install	
-4) run below command to start
-   npm start
+
+<img width="1111" alt="image" src="https://github.com/Niravpatel129/UI-Example/assets/43049943/c0618af7-7628-43cd-9624-911d07e058c7">
+
+
+<img width="263" alt="image" src="https://github.com/Niravpatel129/UI-Example/assets/43049943/01376af7-ad11-4cd7-bb7f-7cefc7ccbd7b">
