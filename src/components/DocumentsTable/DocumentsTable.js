@@ -7,13 +7,13 @@ export default function DocumentsTable({ docs }) {
       <table className="table">
         <thead>
           <tr className="table-header">
-            <th>Document Type</th>
-            <th>Delivery Method</th>
+            <th scope="col">Document Type</th>
+            <th scope="col">Delivery Method</th>
           </tr>
         </thead>
         <tbody>
-          {docs?.map((doc, index) => (
-            <tr key={index} className="table-row">
+          {docs?.map((doc) => (
+            <tr key={doc.document_type} className="table-row">
               <td>{doc.document_type}</td>
               <td>{doc.is_paper_flag ? 'Paper' : 'Electronic'}</td>
             </tr>
