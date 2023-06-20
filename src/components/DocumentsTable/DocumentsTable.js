@@ -1,5 +1,5 @@
 import React from 'react';
-import './DocumentsTable.css';
+import './DocumentsTable.scss';
 
 export default function DocumentsTable({ docs }) {
   return (

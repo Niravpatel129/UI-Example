@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import '../static/css/App.css';
 import DocumentsTable from './components/DocumentsTable/DocumentsTable';
 import DropdownInput from './components/DropdownInput/DropdownInput';
 import formatNumber from './helpers/formatNumber';
 import useDocuments from './hooks/useDocuments';
+
+// Styles
+import '../static/css/App.scss';
 
 const App = () => {
   const { accounts, prefDocuments, defaultAccount } = useDocuments();

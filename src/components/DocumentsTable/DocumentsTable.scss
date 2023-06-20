@@ -1,9 +1,3 @@
-/* DocumentsTable.css */
-
-.container {
-  /* padding: 10px; */
-}
-
 .table {
   border-collapse: collapse;
   width: 100%;
@@ -19,16 +13,13 @@
   text-align: left;
   color: gray;
   border-bottom: 0.1px solid black;
-}
 
-.table-row:last-child {
-  border-bottom: none;
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 th,
 td {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
+  padding: 20px;
 }

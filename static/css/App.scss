@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  width: '80%';
+
+  &-header {
+    background-color: #647882;
+    height: 50px;
+    padding: 20px;
+    color: white;
+  }
+
+  &-title {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+  &-intro {
+    font-size: large;
+  }
+}
+
+.main-container {
+  margin: 0 10%;
+}
+
+.main-section-container {
+  margin: 20px 0;
+  border: 0.5px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}

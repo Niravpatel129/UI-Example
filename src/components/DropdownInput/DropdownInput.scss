@@ -5,10 +5,10 @@
   border: none;
   border-bottom: 1px solid gray;
   outline: none;
-}
 
-.dropdown-select:focus {
-  border-bottom: 2px solid #83cdea;
+  &:focus {
+    border-bottom: 2px solid #83cdea;
+  }
 }
 
 .visually-hidden {
