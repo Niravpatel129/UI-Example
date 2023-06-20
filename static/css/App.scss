@@ -2,19 +2,19 @@
   text-align: center;
   width: '80%';
 
-  &-header {
+  .App-header {
     background-color: #647882;
     height: 50px;
     padding: 20px;
     color: white;
   }
 
-  &-title {
+  .App-title {
     font-size: 1.1em;
     font-weight: 600;
   }
 
-  &-intro {
+  .App-intro {
     font-size: large;
   }
 }
